@@ -1,0 +1,27 @@
+class Box 
+{
+	int height;
+	int width;
+	int length;
+	Box(){
+	}
+	Box(int i,int j,int k){
+	height=i;
+	width=j;
+	length=k;
+	}
+	void dis(){
+	System.out.println("h"+height+"j"+width+"k"+length);
+	}
+}
+class Box2
+{
+
+	public static void main(String[] args) 
+	{
+	    Box b=new Box();
+		Box b1=new Box(10,20,30);
+		b.dis();
+		b1.dis();
+	}
+}
